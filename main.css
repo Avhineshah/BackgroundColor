@@ -3,36 +3,42 @@ min-height:100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+background: #ffd0a8;
+color: #333;
+font-family: 'calibri',sans-serif;
+font-weight: 400;
+text-transform: capitalize;
 }
 
 .container{
-    text-align: center;
+ text-align: center;
+ padding: 2rem;
+ border-radius: 5px;
+ background-color: #fff;
+ flex:0 0 80%; 
 }
 
-.hexColor{
-    text-transform: capitalize;
+#quoteBtn{
+border: none;
+color: #fff;
+background: #d89156;
+font-size: 1.3rem;
+padding:0.25rem 0.5rem;
+border-radius: 7px;
+cursor:pointer;
 }
 
-.hex{
-    font-size: 3rem;
+#quoteBtn:hover{
+ color:#ffd000;
 }
 
-.hexBtn{
-    color: #f15025;   
-    border: 3px solid #f15025 ;
-    border-radius: 7px;
-    background: rgba(0,0,0,0.6);
-    font-size: 1.6rem;
-    padding: 0.25rem 0.5rem;
-    cursor: pointer;
-    outline: none;
-    text-transform: capitalize;   
-
-    
- 
-
- 
+blockquote{
+ background: #f9f9f9;
+ border-left: 10px solid #fcdfbf;
+ margin: 1.5rem;
+ padding: 0.5rem;
 }
-.hexBtn:hover{
- background: rgb(0,0,0);      
+
+#quoteAuthor{
+ color: #ffd000
 }
